@@ -1,0 +1,17 @@
+﻿@model HtmlContent
+
+@using SitecoreDemo.Feature.Content.Models
+
+@if (Model == null)
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+    {
+        <div class="container">
+            <h3>Add content datasource to set the content. Edit component properties to change display settings.</h3>
+        </div>
+    }
+}
+else
+{
+    @Html.Raw(Model.ContentSection)
+}

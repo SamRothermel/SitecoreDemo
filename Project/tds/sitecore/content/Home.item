@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {A9706657-42FD-4C43-AC1B-DF8EA6CF2B77}
+database: master
+path: /sitecore/content/Home
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Home
+master: {00000000-0000-0000-0000-000000000000}
+template: {35223FDC-EDB6-4D56-BF7B-B5E7D71C1ECF}
+templatekey: BasePage
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 26
+
+core3/32x32/home_brown.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{91EFF004-28FA-4558-BFAC-6021E9AFD08E}
+----version----
+language: en
+version: 1
+revision: 35e0eef9-75eb-4b26-8ae7-f0933ac2fceb
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1549
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FB19BED6-2676-48C8-8509-1B230AF52AB2}" p:before="*" s:id="{FAECA8CD-6A63-42EF-85B1-D35812ADDCB3}" s:par="Title=Sitecore%20Demo&amp;HeaderLinks=%7B77DEEF49-E205-459F-B2FD-84B761D13FF5%7D%7C%7B90C161B0-0967-4CC5-8AD5-67246D6B6976%7D%7C%7B9FF7FF43-9E9F-425A-81D4-A58070E69939%7D%7C%7B92235F9F-8A00-40A1-92AC-3291B2B21B46%7D" s:ph="Header" /><r uid="{81714931-96AF-43B3-B1C3-F963DAAE6324}" p:after="r[@uid='{FB19BED6-2676-48C8-8509-1B230AF52AB2}']" s:id="{CD9F68C9-F1D8-4D32-92FB-89AD2EDCD980}" s:par="Title=Sitecore%20Demo%20Homepage&amp;Description=Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident%2C%20sunt%20in%20culpa%20qui%20officia%20deserunt%20mollit%20anim%20id%20est%20laborum.&amp;Image=%3Cimage%20mediaid%3D%22%7B04DAD0FD-DB66-4070-881F-17264CA257E1%7D%22%20%2F%3E&amp;Style=TopDown" s:ph="MainContent" /><r uid="{98C76D94-6744-4AF6-BD7B-27F279F7647B}" p:after="*[1=2]" s:id="{A73552B0-8D14-4B5D-827E-F591BE807FB7}" s:par="ContentSection=%3Cp%3EFOOTER%20HERE%21%3C%2Fp%3E" s:ph="Footer" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211019T000905Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+35e0eef9-75eb-4b26-8ae7-f0933ac2fceb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211021T102142Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

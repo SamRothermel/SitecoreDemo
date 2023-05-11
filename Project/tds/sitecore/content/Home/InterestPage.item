@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {50CA3475-BF7C-4E5B-ABA7-4B5E4EC8F739}
+database: master
+path: /sitecore/content/Home/InterestPage
+parent: {A9706657-42FD-4C43-AC1B-DF8EA6CF2B77}
+name: InterestPage
+master: {00000000-0000-0000-0000-000000000000}
+template: {91EFF004-28FA-4558-BFAC-6021E9AFD08E}
+templatekey: Sitepage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: c3072f78-9b5c-4cc6-877e-890604997149
+
+----field----
+field: {E7247EE5-7E56-49F7-BF09-A13FD8B7BAF6}
+name: MetaTitle
+key: metatitle
+content-length: 38
+
+Booster looks interested in something.
+----field----
+field: {9463FA6B-7835-4EC1-80CE-BC0831BD94AE}
+name: MetaDescription
+key: metadescription
+content-length: 92
+
+<p>Booster looks up at something on the screen. Seems like whatever it is it's exciting!</p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1021
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{AD4A5FC8-6E96-4350-80ED-E54FF59EB014}" p:after="*[1=2]" s:id="{CD9F68C9-F1D8-4D32-92FB-89AD2EDCD980}" s:par="Title=Booster%20looks%20interested%20in%20something.&amp;Description=%3Cp%3ELorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Donec%20porttitor%20tempor%20enim%20quis%20tempus.%20Sed%20lectus%20tortor%2C%20posuere%20a%20lorem%20in%2C%20congue%20egestas%20leo.%20Aenean%20ut%20mauris%20ac%20nunc%20dapibus%20pulvinar.%20Sed%20pharetra%20dui%20ac%20ex%20posuere%2C%20malesuada%20bibendum%20urna%20scelerisque.%20Curabitur%20libero%20libero%2C%20varius%20vel%20leo%20non%2C%20tempus%20eleifend%20felis.%20Aenean%20turpis%20urna%2C%20hendrerit%20nec%20dignissim%20a%2C%20consequat%20et%20nisi.%20Mauris%20vitae%20eros%20mi.%20Nam%20quis%20turpis%20vel.%3C%2Fp%3E&amp;Image=%3Cimage%20mediaid%3D%22%7BD62CA335-DDCC-42E1-90B5-62047070DFBE%7D%22%20%2F%3E&amp;Style=TopDown" s:ph="MainContent" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211021T100435Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3072f78-9b5c-4cc6-877e-890604997149
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211025T110208Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

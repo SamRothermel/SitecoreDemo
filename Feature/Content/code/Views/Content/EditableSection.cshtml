@@ -1,0 +1,45 @@
+﻿@model EditableSection
+
+@using SitecoreDemo.Feature.Content.Models
+@using Glass.Mapper.Sc.Web.Mvc
+@using System
+@if (Model == null)
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+    {
+        <div class="container">
+            <h3>Add content datasource to set the content. Edit component properties to change display settings.</h3>
+        </div>
+    }
+}
+else
+{
+    <div class="container">
+        <div class="row"><h2>@Html.Glass().Editable(x => x.Title)</h2></div>
+        @switch (Model.Style)
+        {
+            case "ImageLeft":
+                <div class="row">
+                    <div class="col-6">
+                        @Html.Glass().RenderImage(x => x.Image)
+                    </div>
+                    <div class="col-6">@Html.Glass().Editable(x => x.Description)</div>
+                </div>
+                break;
+            case "ImageRight":
+                <div class="row">
+                    <div class="col-6">@Html.Glass().Editable(x => x.Description)</div>
+                    <div class="col-6">@Html.Glass().RenderImage(x => x.Image, new NameValueCollection { "style", "max-width:100%; max-height:100%;"  })</div>
+                </div>
+                break;
+            default: //TopDown
+                if (Model.Image != null)
+                {
+                    <div class="row">@Html.Glass().RenderImage(x => x.Image)</div>
+                }
+                <div class="row">@Html.Glass().Editable(x => x.Description)</div>
+                break;
+        }
+    </div>
+}
+

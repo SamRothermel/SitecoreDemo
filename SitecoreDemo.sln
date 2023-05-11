@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{A3EFF28D-6261-48ED-BEF5-28C483FFD13D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{FA9BE384-6641-4103-9CAF-889FF6AE77C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Project", "Project\code\SitecoreDemo.Project.csproj", "{C46DCD80-6544-463E-996A-0C8321A9F3E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{B525C416-8FDC-41CF-81F9-445D852451A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Glass", "Glass", "{8D09E612-D170-4362-87D2-076640B19D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Foundation.GlassMapper", "Foundation\Glass\code\SitecoreDemo.Foundation.GlassMapper\SitecoreDemo.Foundation.GlassMapper.csproj", "{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{3867A990-18AE-40C1-A95A-0BCE28DD091C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.Content", "Feature\Content\code\SitecoreDemo.Feature.Content.csproj", "{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.Header", "Feature\Header\code\SitecoreDemo.Feature.Header.csproj", "{CDB4F6CD-5E92-405E-9949-3AA559234677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header", "Header", "{BC6A9DE5-B938-4525-ABC7-F9ABB33BF77B}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreDemo.Project.Master", "Project\tds\SitecoreDemo.Project.Master.scproj", "{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevTools", "DevTools", "{2BE9B6C1-9EB5-4DCE-89A9-6C9DDE67E9E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreDemo.Feature.DevTools", "Feature\DevTools\code\SitecoreDemo.Feature.DevTools.csproj", "{175A54B2-3E3D-4B5F-93EB-96241DDB8B46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46DCD80-6544-463E-996A-0C8321A9F3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46DCD80-6544-463E-996A-0C8321A9F3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46DCD80-6544-463E-996A-0C8321A9F3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46DCD80-6544-463E-996A-0C8321A9F3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB4F6CD-5E92-405E-9949-3AA559234677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB4F6CD-5E92-405E-9949-3AA559234677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB4F6CD-5E92-405E-9949-3AA559234677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB4F6CD-5E92-405E-9949-3AA559234677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{175A54B2-3E3D-4B5F-93EB-96241DDB8B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175A54B2-3E3D-4B5F-93EB-96241DDB8B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175A54B2-3E3D-4B5F-93EB-96241DDB8B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175A54B2-3E3D-4B5F-93EB-96241DDB8B46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C46DCD80-6544-463E-996A-0C8321A9F3E6} = {A3EFF28D-6261-48ED-BEF5-28C483FFD13D}
+		{8D09E612-D170-4362-87D2-076640B19D74} = {B525C416-8FDC-41CF-81F9-445D852451A1}
+		{DC8C8B9C-9CB6-4D36-815E-036C8110D8B8} = {8D09E612-D170-4362-87D2-076640B19D74}
+		{3867A990-18AE-40C1-A95A-0BCE28DD091C} = {FA9BE384-6641-4103-9CAF-889FF6AE77C9}
+		{51452F11-BC92-4405-BBC3-1BDA0BA9A3EE} = {3867A990-18AE-40C1-A95A-0BCE28DD091C}
+		{CDB4F6CD-5E92-405E-9949-3AA559234677} = {BC6A9DE5-B938-4525-ABC7-F9ABB33BF77B}
+		{BC6A9DE5-B938-4525-ABC7-F9ABB33BF77B} = {FA9BE384-6641-4103-9CAF-889FF6AE77C9}
+		{F00A4BD8-C75B-4A46-8F82-028A7EF33F39} = {A3EFF28D-6261-48ED-BEF5-28C483FFD13D}
+		{2BE9B6C1-9EB5-4DCE-89A9-6C9DDE67E9E1} = {FA9BE384-6641-4103-9CAF-889FF6AE77C9}
+		{175A54B2-3E3D-4B5F-93EB-96241DDB8B46} = {2BE9B6C1-9EB5-4DCE-89A9-6C9DDE67E9E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFBC112A-E88E-4382-8A69-420C55B77855}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

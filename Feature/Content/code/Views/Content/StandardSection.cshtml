@@ -1,0 +1,42 @@
+﻿@model StandardSection
+
+@using SitecoreDemo.Feature.Content.Models
+
+@if (Model == null)
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+    {
+        <div class="container">
+            <h3>Add content datasource to set the content. Edit component properties to change display settings.</h3>
+        </div>
+    }
+}
+else
+{
+    <div class="container">
+        <div class="row"><h2>@Model.Title</h2></div>
+        @switch (Model.Style)
+        {
+            case "ImageLeft":
+                <div class="row">
+                    <div class="col-6"><img style="max-width:100%;" src="@Model.Image.Src" alt="@Model.Image.Alt" /></div>
+                    <div class="col-6">@Html.Raw(Model.Description)</div>
+                </div>
+                break;
+            case "ImageRight":
+                <div class="row">
+                    <div class="col-6">@Html.Raw(Model.Description)</div>
+                    <div class="col-6"><img style="max-width:100%;" src="@Model.Image.Src" alt="@Model.Image.Alt" /></div>
+                </div>
+                break;
+            default: //TopDown
+                if (Model.Image != null)
+                {
+                    <div class="row"><img src="@Model.Image.Src" alt="@Model.Image.Alt" /></div>
+                }
+                <div class="row">@Html.Raw(Model.Description)</div>
+                break;
+        }
+    </div>
+}
+

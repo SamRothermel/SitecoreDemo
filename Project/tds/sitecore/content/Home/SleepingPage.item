@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {4FC4C9C7-2B1F-43B5-BC2E-071E0AC98CE3}
+database: master
+path: /sitecore/content/Home/SleepingPage
+parent: {A9706657-42FD-4C43-AC1B-DF8EA6CF2B77}
+name: SleepingPage
+master: {00000000-0000-0000-0000-000000000000}
+template: {91EFF004-28FA-4558-BFAC-6021E9AFD08E}
+templatekey: Sitepage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1023
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E6B02EB1-1661-4A1D-BD2D-85F18A490183}" p:after="*[1=2]" s:id="{CD9F68C9-F1D8-4D32-92FB-89AD2EDCD980}" s:par="Title=Nap%20Time&amp;Description=%3Cp%3EBooster%20is%20sleeping.%20%3C%2Fp%3E%3Cp%3ELorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident%2C%20sunt%20in%20culpa%20qui%20officia%20deserunt%20mollit%20anim%20id%20est%20laborum.%3C%2Fp%3E&amp;Image=%3Cimage%20mediaid%3D%22%7BA02FF58F-184F-4882-BEDE-90E105279438%7D%22%20%2F%3E&amp;Style=ImageRight" s:ph="MainLayout" /></d></r>
+----version----
+language: en
+version: 1
+revision: f07f006a-4304-48bb-889e-397503e9639a
+
+----field----
+field: {E7247EE5-7E56-49F7-BF09-A13FD8B7BAF6}
+name: MetaTitle
+key: metatitle
+content-length: 20
+
+Booster taking a nap
+----field----
+field: {9463FA6B-7835-4EC1-80CE-BC0831BD94AE}
+name: MetaDescription
+key: metadescription
+content-length: 114
+
+<p>Booster is taking a nap after a long day of play. This is an interesting position to be sleeping in though.</p>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1080
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{E6B02EB1-1661-4A1D-BD2D-85F18A490183}"><p:d /></r><r uid="{F879B9DB-07B2-4912-A251-22BF62F580F5}" p:after="*[1=2]" s:id="{CD9F68C9-F1D8-4D32-92FB-89AD2EDCD980}" s:par="Title=Nap%20Time&amp;Description=%3Cp%3EBooster%20is%20sleeping.%3C%2Fp%3E%3Cp%3ELorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident%2C%20sunt%20in%20culpa%20qui%20officia%20deserunt%20mollit%20anim%20id%20est%20laborum.%3C%2Fp%3E&amp;Image=%3Cimage%20mediaid%3D%22%7BA02FF58F-184F-4882-BEDE-90E105279438%7D%22%20%2F%3E&amp;Style=ImageRight" s:ph="MainContent" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211021T100427Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f07f006a-4304-48bb-889e-397503e9639a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211025T111153Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

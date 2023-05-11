@@ -1,0 +1,28 @@
+﻿@model SearchResults
+
+@using SitecoreDemo.Feature.Header.Models
+@{ 
+    var i = 1;
+}
+
+@if (Model != null)
+{
+    <h3>@Model.PageList.Count search results for '@Model.SearchTerm'</h3>
+    <div>
+        @foreach (var result in Model.PageList)
+        {
+            <div class="row">
+                <h2>@(i). <a href="@result.PageLinkUrl">@result.MetaTitle</a></h2>
+            </div>
+            <div class="row">
+                <p>@Html.Raw(result.MetaDescription)</p>
+            </div>
+            <br />
+            i++;
+        }
+    </div>
+}
+else
+{
+    <h2>Please Enter a search term into the search box.</h2>
+}
